@@ -369,3 +369,49 @@ color: #333333;
     /* font-weight: 700; */
     font-size: 6rem;
 }
+
+ul.products li.product .button {
+    font-size: 15px;
+    margin-bottom: .236em;
+    background-color: #9a79b7;
+    color: white;
+    border-radius: 10px;
+}
+ul.products li.product .button:hover {
+    background-color: #6f3e9a;
+}
+
+.price del {
+    opacity: .5;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #e2401c;
+}
+
+.onsale {
+    /* border-color: #6d6d6d; */
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    background-color: #ff9dab;
+    border: none;
+    width: 100%;
+    color: black;
+}
+
+.price ins {
+    font-weight: 400;
+    font-size: 2rem;
+    color: #000000;
+}
+
+ul.products li.product .woocommerce-loop-product__title, ul.products li.product h2, ul.products li.product h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: .5407911001em;
+}
+
+ul.products li.product img:hover {
+    transform: scale(1.1,1.1);
+    transition: 0.5s ease;
+}
