@@ -355,5 +355,17 @@ color: #333333;
 }}
 
 .site-header{
-    background-color: #fff3eb;
+    background-color: #fffaf6;
+}
+
+@media (min-width: 768px){
+.storefront-primary-navigation {
+    clear: both;
+    background: #ff9dab;
+    margin-top: 1rem;
+}}
+
+.site-branding .site-title a {
+    /* font-weight: 700; */
+    font-size: 6rem;
 }
